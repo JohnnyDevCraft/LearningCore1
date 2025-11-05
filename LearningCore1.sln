@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1", "LearningCore1\LearningCore1.csproj", "{46003775-82ED-4AEF-9C94-AE2F2F630F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1.AppHost", "LearningCore1.AppHost\LearningCore1.AppHost.csproj", "{55C6EA33-B987-474D-B8F1-A6202EC53EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1.ServiceDefaults", "LearningCore1.ServiceDefaults\LearningCore1.ServiceDefaults.csproj", "{B640D110-EB2F-472B-8B2E-85DC1A14704D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46003775-82ED-4AEF-9C94-AE2F2F630F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46003775-82ED-4AEF-9C94-AE2F2F630F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46003775-82ED-4AEF-9C94-AE2F2F630F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46003775-82ED-4AEF-9C94-AE2F2F630F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C6EA33-B987-474D-B8F1-A6202EC53EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C6EA33-B987-474D-B8F1-A6202EC53EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C6EA33-B987-474D-B8F1-A6202EC53EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C6EA33-B987-474D-B8F1-A6202EC53EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B640D110-EB2F-472B-8B2E-85DC1A14704D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B640D110-EB2F-472B-8B2E-85DC1A14704D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B640D110-EB2F-472B-8B2E-85DC1A14704D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B640D110-EB2F-472B-8B2E-85DC1A14704D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
