@@ -1,6 +1,6 @@
-﻿using LearningCore1.Entities;
+﻿using LearningCore1.WebApi.Entities;
 
-namespace LearningCore1.Services;
+namespace LearningCore1.WebApi.Services;
 
 public class TaskItemManager
 {

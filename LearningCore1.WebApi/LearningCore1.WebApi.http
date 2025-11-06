@@ -1,0 +1,63 @@
+@HostAddress = https://localhost:7067
+
+POST {{HostAddress}}/register HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{"email":"jd49490@me.com","password":"Snafu201!"}
+
+###
+
+POST {{HostAddress}}/login?useCookies=false&useSessionCookies=false HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{"email":"jd49490@me.com","password":"Snafu201!"}
+
+> {% 
+   client.global.set("accessToken", response.body.accessToken)
+ %}
+###
+
+GET {{HostAddress}}/manage/info HTTP/1.1
+Host: localhost
+Authorization: Bearer {{accessToken}}
+
+###
+
+POST {{HostAddress}}/api/tasks HTTP/1.1
+Host: localhost
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+{
+  "title":"Test the Api",
+  "description":"QA Task",
+  "isDone":false
+}
+
+### 
+GET {{HostAddress}}/api/tasks HTTP/1.1
+Host: localhost
+Authorization: Bearer {{accessToken}}
+
+###
+
+POST {{HostAddress}}/register HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{"email":"jd49490@gmail.com","password":"Snafu201!"}
+
+###
+
+POST {{HostAddress}}/login?useCookies=false&useSessionCookies=false HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{"email":"jd49490@gmail.com","password":"Snafu201!"}
+
+> {%
+    client.global.set("accessToken", response.body.accessToken)
+%}
+

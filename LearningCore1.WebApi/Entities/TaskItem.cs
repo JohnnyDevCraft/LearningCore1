@@ -1,4 +1,4 @@
-﻿namespace LearningCore1.Entities;
+﻿namespace LearningCore1.WebApi.Entities;
 
 public class TaskItem
 {
@@ -7,4 +7,7 @@ public class TaskItem
     public string Description { get; set; }
     public DateTime DueDate { get; set; }
     public bool IsDone { get; set; }
+
+    public Guid? AssignedToId { get; set; }
+    public TaskUser? AssignedTo { get; set; }
 }

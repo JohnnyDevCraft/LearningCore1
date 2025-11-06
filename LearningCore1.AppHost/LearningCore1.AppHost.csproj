@@ -7,7 +7,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <UserSecretsId>df226eb0-ac35-4eab-beef-731715a61e5b</UserSecretsId>
+        <UserSecretsId>d476b24f-79d3-4ead-8240-429578b2b492</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LearningCore1\LearningCore1.csproj" />
+      <ProjectReference Include="..\LearningCore1.WebApi\LearningCore1.WebApi.csproj" />
     </ItemGroup>
 
 </Project>
