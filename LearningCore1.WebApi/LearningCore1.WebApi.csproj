@@ -8,6 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Mediator.SourceGenerator" Version="3.0.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.10" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8"/>
         <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="9.5.2" />
@@ -22,6 +26,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\LearningCore1.ServiceDefaults\LearningCore1.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\Tasks.Module\Tasks.Module.csproj" />
     </ItemGroup>
 
 </Project>

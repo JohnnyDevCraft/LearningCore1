@@ -1,10 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1.WebApi", "LearningCore1.WebApi\LearningCore1.WebApi.csproj", "{F33726B4-34BC-46D4-A244-495478125328}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1.AppHost", "LearningCore1.AppHost\LearningCore1.AppHost.csproj", "{4FE3430C-00F4-4C7C-9815-8C423569BFC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCore1.ServiceDefaults", "LearningCore1.ServiceDefaults\LearningCore1.ServiceDefaults.csproj", "{3DC0F3A4-E574-4DCF-B445-B83A030FEF00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TasksModule", "TasksModule", "{B2C194B0-D2B5-4E0F-8166-7CBAEA2FEA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.Contracts", "Tasks.Contracts\Tasks.Contracts.csproj", "{78F31F03-EFA7-48D3-88DB-B81A29002191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.Module", "Tasks.Module\Tasks.Module.csproj", "{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +35,24 @@ Global
 		{3DC0F3A4-E574-4DCF-B445-B83A030FEF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC0F3A4-E574-4DCF-B445-B83A030FEF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC0F3A4-E574-4DCF-B445-B83A030FEF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F31F03-EFA7-48D3-88DB-B81A29002191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F31F03-EFA7-48D3-88DB-B81A29002191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F31F03-EFA7-48D3-88DB-B81A29002191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F31F03-EFA7-48D3-88DB-B81A29002191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2C194B0-D2B5-4E0F-8166-7CBAEA2FEA99} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{78F31F03-EFA7-48D3-88DB-B81A29002191} = {B2C194B0-D2B5-4E0F-8166-7CBAEA2FEA99}
+		{9C2495B7-3BD9-48E7-AF73-1DAF42EC8244} = {B2C194B0-D2B5-4E0F-8166-7CBAEA2FEA99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1232888-3075-4727-8427-59F949F4ECA6}
 	EndGlobalSection
 EndGlobal

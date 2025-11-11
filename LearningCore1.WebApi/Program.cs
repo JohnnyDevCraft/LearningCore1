@@ -1,14 +1,21 @@
 using LearningCore1.WebApi.DataAccess;
-using LearningCore1.WebApi.Endpoints;
 using LearningCore1.WebApi.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using Tasks.Module.EndPoints;
+using Tasks.Module.Sevices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 builder.Services.AddOpenApi();
+
+builder.Services.AddMediator(options =>
+{
+    options.Assemblies = [typeof(CreateNewTaskRequestHandler).Assembly];
+    options.Namespace = "LearningCore1.WebApi.Mediator";
+});
 
 builder.Services.AddAuthentication(options =>
     {
@@ -21,7 +28,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorizationBuilder();
 
 builder.Services.AddIdentityCore<TaskUser>()
-    .AddEntityFrameworkStores<TaskItemsContext>()
+    .AddEntityFrameworkStores<AuthDbContext>()
     .AddApiEndpoints();
 
 
@@ -29,7 +36,7 @@ builder.Services.AddIdentityCore<TaskUser>()
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
-builder.AddSqlServerDbContext<TaskItemsContext>("TaskItemsDb");
+builder.AddSqlServerDbContext<AuthDbContext>("TaskItemsDb");
 
 var app = builder.Build();
 
@@ -41,7 +48,7 @@ app.MapDefaultEndpoints();
 if (app.Environment.IsDevelopment())
 {
     app.Services.CreateScope().ServiceProvider
-        .GetRequiredService<TaskItemsContext>()
+        .GetRequiredService<AuthDbContext>()
         .Database.Migrate();
     
     app.MapOpenApi();
@@ -52,8 +59,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.MapTaskEndpoints();
+app.UseTaskItemModule();
 app.MapIdentityApi<TaskUser>();
 
 app.Run();
-

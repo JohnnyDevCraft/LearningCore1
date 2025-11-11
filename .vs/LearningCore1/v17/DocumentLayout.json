@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|c:\\users\\jd494\\source\\repos\\learningcore1\\learningcore1.webapi\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|solutionrelative:learningcore1.webapi\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|c:\\users\\jd494\\source\\repos\\learningcore1\\learningcore1.webapi\\dataaccess\\taskitemmodelextender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|solutionrelative:learningcore1.webapi\\dataaccess\\taskitemmodelextender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|c:\\users\\jd494\\source\\repos\\learningcore1\\learningcore1.webapi\\entities\\taskuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F33726B4-34BC-46D4-A244-495478125328}|LearningCore1.WebApi\\LearningCore1.WebApi.csproj|solutionrelative:learningcore1.webapi\\entities\\taskuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F31F03-EFA7-48D3-88DB-B81A29002191}|Tasks.Contracts\\Tasks.Contracts.csproj|c:\\users\\jd494\\source\\repos\\learningcore1\\tasks.contracts\\tasks.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78F31F03-EFA7-48D3-88DB-B81A29002191}|Tasks.Contracts\\Tasks.Contracts.csproj|solutionrelative:tasks.contracts\\tasks.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskItemModelExtender.cs",
+              "DocumentMoniker": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\DataAccess\\TaskItemModelExtender.cs",
+              "RelativeDocumentMoniker": "LearningCore1.WebApi\\DataAccess\\TaskItemModelExtender.cs",
+              "ToolTip": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\DataAccess\\TaskItemModelExtender.cs",
+              "RelativeToolTip": "LearningCore1.WebApi\\DataAccess\\TaskItemModelExtender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:46:27.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskUser.cs",
+              "DocumentMoniker": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\Entities\\TaskUser.cs",
+              "RelativeDocumentMoniker": "LearningCore1.WebApi\\Entities\\TaskUser.cs",
+              "ToolTip": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\Entities\\TaskUser.cs",
+              "RelativeToolTip": "LearningCore1.WebApi\\Entities\\TaskUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:45:53.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "LearningCore1.WebApi\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\LearningCore1.WebApi\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "LearningCore1.WebApi\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:45:52.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tasks.Contracts",
+              "DocumentMoniker": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\Tasks.Contracts\\Tasks.Contracts.csproj",
+              "RelativeDocumentMoniker": "Tasks.Contracts\\Tasks.Contracts.csproj",
+              "ToolTip": "C:\\Users\\jd494\\source\\repos\\LearningCore1\\Tasks.Contracts\\Tasks.Contracts.csproj",
+              "RelativeToolTip": "Tasks.Contracts\\Tasks.Contracts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T18:45:09.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
